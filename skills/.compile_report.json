@@ -1,0 +1,99 @@
+{
+  "compiled_package_id": "starry",
+  "evidence": {
+    "core_skills": [
+      "starry-system",
+      "starry-sphericalharmonicmap",
+      "starry-secondary",
+      "starry-reflectedlightmap",
+      "starry-radialvelocitymap",
+      "starry-primary"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/starry-system.md",
+      "skills/.evidence/starry-sphericalharmonicmap.md",
+      "skills/.evidence/starry-secondary.md",
+      "skills/.evidence/starry-reflectedlightmap.md",
+      "skills/.evidence/starry-radialvelocitymap.md",
+      "skills/.evidence/starry-primary.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Set source_dirs explicitly because auto-discovery candidates do not include package-named roots like 'starry'.",
+      "Generator syntax error in source/doc map f-strings was minimally patched for deterministic execution."
+    ],
+    "package_name": "starry",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "starry"
+    ],
+    "test_dirs": [
+      "tests",
+      "starry/extensions/tests"
+    ],
+    "tutorial_dirs": [
+      "notebooks"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/starry-starry",
+  "validation": {
+    "core_skills_checked": [
+      "starry-advanced-topics",
+      "starry-system",
+      "starry-sphericalharmonicmap",
+      "starry-secondary",
+      "starry-reflectedlightmap",
+      "starry-radialvelocitymap"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/starry-starry/skills/starry-reflectedlightmap/references/source_map.md: broken path references: 1/r^2",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/starry-starry/skills/starry-advanced-topics/SKILL.md: missing `## High-Signal Playbook` section.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/starry-starry/skills/starry-system/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/starry-starry/skills/starry-sphericalharmonicmap/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/starry-starry/skills/starry-secondary/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/starry-starry/skills/starry-reflectedlightmap/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/starry-starry/skills/starry-radialvelocitymap/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "starry-index"
+    ],
+    "ok": false,
+    "skills_total": 8,
+    "source_links_total": 53,
+    "topic_skills": 7,
+    "warnings": []
+  }
+}

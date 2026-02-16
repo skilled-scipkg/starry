@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "starry-system",
+    "starry-sphericalharmonicmap",
+    "starry-secondary",
+    "starry-reflectedlightmap",
+    "starry-radialvelocitymap",
+    "starry-primary"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/starry-system.md",
+    "skills/.evidence/starry-sphericalharmonicmap.md",
+    "skills/.evidence/starry-secondary.md",
+    "skills/.evidence/starry-reflectedlightmap.md",
+    "skills/.evidence/starry-radialvelocitymap.md",
+    "skills/.evidence/starry-primary.md"
+  ]
+}
